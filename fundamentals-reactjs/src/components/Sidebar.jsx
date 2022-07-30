@@ -16,7 +16,7 @@ export function Sidebar() {
             alt="Augusto Monteiro"
           />
 
-          <strong>Diego Fernandes</strong>
+          <strong>Augusto Monteiro</strong>
           <span>Web Developer</span>
         </div>
 

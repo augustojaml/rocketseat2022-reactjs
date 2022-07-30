@@ -1,9 +1,9 @@
 import { Header } from './components/Header';
-import './global.css';
-
-import styles from './App.module.css';
 import { Post } from './components/Post';
 import { Sidebar } from './components/Sidebar';
+
+import styles from './App.module.css';
+import './global.css';
 
 export function App() {
   return (
@@ -13,11 +13,11 @@ export function App() {
         <Sidebar />
 
         <main>
-          <Post author="Augusto Monteiro" />
-          <Post author="Marlon Neiva" />
-          <Post author="Márcio Neiva" />
-          <Post author="Flávia Neiva" />
-          <Post author="Marilene Neiva" />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
+          <Post />
           <Post />
         </main>
       </div>
