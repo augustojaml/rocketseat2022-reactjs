@@ -1,11 +1,10 @@
 # Project 01
 
-### [Reactjs](https://pt-br.reactjs.org/)
+### ReactJS
 
+- [Reactjs](https://pt-br.reactjs.org/)
 - React é uma biblioteca
-
 - Rendering patters
-
   - SPA (Single Page Application)
   - SSR (Server side render)
 
