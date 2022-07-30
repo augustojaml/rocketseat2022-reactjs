@@ -11,21 +11,21 @@
 
 ### Compiladores
 
-    - [vite](https://vitejs.dev/)
-    - [snowpack](https://www.snowpack.dev/)
+- [vite](https://vitejs.dev/)
+- [snowpack](https://www.snowpack.dev/)
 
 ### Package Manage
 
-    - [nvm - Node Version Manager](https://github.com/nvm-sh/nvm)
-    - [n – Interactively Manage Your Node.js Versions](https://github.com/tj/n)
+- [nvm - Node Version Manager](https://github.com/nvm-sh/nvm)
+- [n – Interactively Manage Your Node.js Versions](https://github.com/tj/n)
 
 ### Criando projeto vite
 
-    - Criar projeto com o comando abaixo e ao final acessar página do projeto e executar `yarn` para instalação das dependências
+- Criar projeto com o comando abaixo e ao final acessar página do projeto e executar `yarn` para instalação das dependências
 
-    ```
-    yarn create vite
-    ```
+```
+yarn create vite
+```
 
 ### Projeto Figma
 
