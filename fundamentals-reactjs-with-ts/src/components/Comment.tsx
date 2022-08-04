@@ -3,10 +3,18 @@ import { useState } from 'react';
 import { Avatar } from './Avatar';
 import styles from './Comment.module.css';
 
-export function Comment({ content, deleteComment }) {
+interface CommentProps {
+  content: {
+    id: number;
+    comment: string;
+  };
+  deleteComment: (commentId: number) => void;
+}
+
+export function Comment({ content, deleteComment }: CommentProps) {
   const [likeCount, setLikeCount] = useState(0);
 
-  function handleDeleteComment(commentId) {
+  function handleDeleteComment(commentId: number) {
     deleteComment(commentId);
   }
 

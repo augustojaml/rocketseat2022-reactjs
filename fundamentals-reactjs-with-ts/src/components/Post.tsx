@@ -1,12 +1,30 @@
 import { format, formatDistanceToNow } from 'date-fns';
 import ptBR from 'date-fns/locale/pt-BR';
-import { useState } from 'react';
+import { FormEvent, useState } from 'react';
 
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
 import styles from './Post.module.css';
 
-export function Post({ post }) {
+interface PostItem {
+  id: number;
+  author: {
+    avatarUrl: string;
+    name: string;
+    role: string;
+  };
+  content: {
+    type: string;
+    content: string;
+  }[];
+  publishedAt: Date;
+}
+
+interface PostProps {
+  post: PostItem;
+}
+
+export function Post({ post }: PostProps) {
   const [comments, setComments] = useState([
     {
       id: new Date().getTime(),
@@ -25,7 +43,7 @@ export function Post({ post }) {
     addSuffix: true,
   });
 
-  function handleCreateNewComment(e) {
+  function handleCreateNewComment(e: FormEvent) {
     e.preventDefault();
     const newComment = {
       id: new Date().getTime(),
@@ -35,13 +53,13 @@ export function Post({ post }) {
     setNewCommentText('');
   }
 
-  function deleteComment(commentId) {
+  function deleteComment(commentId: number) {
     const updatedComment = comments.filter((comment) => comment.id !== commentId);
     setComments(updatedComment);
     // console.log(updatedComment);
   }
 
-  function handleNewCommentInvalid() {
+  function handleNewCommentInvalid(event: any) {
     event.target.setCustomValidity('Esse campo é obrigatório');
   }
 
