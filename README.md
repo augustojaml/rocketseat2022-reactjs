@@ -36,11 +36,18 @@ yarn create vite
 - [date-fns](https://date-fns.org/docs/Getting-Started)
 - [styled-component]https://styled-components.com/
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+- [react-hook-form](https://react-hook-form.com/)
 
+`Validação de foumularios`
+
+- [yup](https://github.com/jquense/yup)
+- [joi](https://github.com/sideway/joi)
+- [zod](https://github.com/colinhacks/zod)
+- [@hookform/resolver](https://www.npmjs.com/package/@hookform/resolvers)
 
 ### Configurando o ESLINT
 
-- yarn add  -D eslint @rocketseat/eslint-config
+- yarn add -D eslint @rocketseat/eslint-config
 - crie um arquivo na raiz do projeto chamado `.eslintrc.json`
 - testando projeto `yarn eslint src --ext .ts,.tsx`
 - Adicionar o escript no packetjson
@@ -52,3 +59,11 @@ yarn create vite
   },
   ```
 
+### Formularios com react
+
+- Controlled: manter em tempo real a informação do estado
+- Uncontrolled: busca os valores do estado somente quando for necessário
+
+- Prop Drilling -> muitas propriedades apenas para comunicação entre componentes
+
+- Context Api -> permite compartilhar entre varias componentes informações ao mesmo tempo
