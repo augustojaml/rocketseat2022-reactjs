@@ -29,6 +29,7 @@ yarn create vite
 - [others](https://www.figma.com/community/file/1127351821076435124)
 - [Rocket Help](https://www.figma.com/file/rQbh6GRPwiOTGqCXF01opn/Rocket-Help-Ignite-Lab-Community)
 - [Ignite Time](<https://www.figma.com/file/3n0FjHGba29Spg7GUhjFeH/Ignite-Timer-(Community)?node-id=0%3A1>)
+- [DT Money](https://app.rocketseat.com.br/node/projeto-03/group/estrutura-visual/lesson/introducao-41)
 
 ### Libs
 
@@ -44,6 +45,7 @@ yarn create vite
 - [joi](https://github.com/sideway/joi)
 - [zod](https://github.com/colinhacks/zod)
 - [@hookform/resolver](https://www.npmjs.com/package/@hookform/resolvers)
+- [TypeScript Error Translator](https://ts-error-translator.vercel.app/)
 
 ### Configurando o ESLINT
 
@@ -67,3 +69,5 @@ yarn create vite
 - Prop Drilling -> muitas propriedades apenas para comunicação entre componentes
 
 - Context Api -> permite compartilhar entre varias componentes informações ao mesmo tempo
+
+### Reduces
