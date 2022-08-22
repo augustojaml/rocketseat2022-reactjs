@@ -35,7 +35,7 @@ yarn create vite
 
 - [phosphoricons](https://phosphoricons.com/)
 - [date-fns](https://date-fns.org/docs/Getting-Started)
-- [styled-component]https://styled-components.com/
+- [styled-component](https://styled-components.com/)
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 - [react-hook-form](https://react-hook-form.com/)
 - [arialkit](https://github.com/ariakit/ariakit)
@@ -60,6 +60,12 @@ yarn create vite
 
 - yarn add -D eslint @rocketseat/eslint-config
 - crie um arquivo na raiz do projeto chamado `.eslintrc.json`
+  ```json
+  {
+    "extends": "@rocketseat/eslint-config/react",   
+  }
+  ```
+
 - testando projeto `yarn eslint src --ext .ts,.tsx`
 - Adicionar o escript no packetjson
   ```json
