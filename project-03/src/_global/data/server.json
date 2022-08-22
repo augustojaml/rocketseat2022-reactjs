@@ -1,0 +1,60 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "description": "Desenvolvimento de sites",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2022-08-21T23:06:03.827Z"
+    },
+    {
+      "id": "2",
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2022-08-13T23:06:03.827Z"
+    },
+    {
+      "id": "1661133793878",
+      "createdAt": "2022-08-22T02:03:13.878Z",
+      "description": "Compras Veneza",
+      "price": 150,
+      "category": "Casa",
+      "type": "outcome"
+    },
+    {
+      "id": "1661133912267",
+      "createdAt": "2022-08-22T02:05:12.267Z",
+      "description": "Desenvolvimento Website Matraca",
+      "price": 300,
+      "category": "Venda",
+      "type": "income"
+    },
+    {
+      "id": "1661133946122",
+      "createdAt": "2022-08-22T02:05:46.122Z",
+      "description": "Pizza",
+      "price": 49,
+      "category": "Alimentação",
+      "type": "outcome"
+    },
+    {
+      "id": "1661136437895",
+      "createdAt": "2022-08-22T02:47:17.895Z",
+      "description": "Nimesulida",
+      "price": 8,
+      "category": "Farmácia",
+      "type": "outcome"
+    },
+    {
+      "id": "1661136495241",
+      "createdAt": "2022-08-22T02:48:15.241Z",
+      "description": "Alginac 1000",
+      "price": 25,
+      "category": "Farmácia",
+      "type": "outcome"
+    }
+  ]
+}

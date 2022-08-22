@@ -1,0 +1,30 @@
+{
+  "Jaml Basic ReactJS Component": {
+    "prefix": "jamlfc",
+    "body": [
+      "import { Container } from './styles';",
+      "",
+      "export function ${TM_DIRECTORY/.*[\\\\|\\/]+(.*)/$1/}() {",
+      "  return (",
+      "    <>",
+      "      <Container>",
+      "        <h1>${TM_DIRECTORY/.*[\\\\|\\/]+(.*)/$1/}</h1>",
+      "      </Container>",
+      "    </>",
+      "  )",
+      "}"
+    ],
+    "description": "Jaml Function Component"
+  },
+  "Jaml Basic ReacJS Module Styles": {
+    "prefix": "jamlsc",
+    "body": [
+      "import styled, { css } from 'styled-components';",
+      "",
+      "export const Container = styled.div`",
+      "  ${() => css``}",
+      "`",
+    ],
+    "description": "Jaml Styled Component"
+  }
+}
