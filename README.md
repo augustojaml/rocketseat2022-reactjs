@@ -38,6 +38,15 @@ yarn create vite
 - [styled-component]https://styled-components.com/
 - [React Router](https://v5.reactrouter.com/web/guides/quick-start)
 - [react-hook-form](https://react-hook-form.com/)
+- [arialkit](https://github.com/ariakit/ariakit)
+- [headlessui](https://headlessui.com/)
+- [chakra-ui](https://chakra-ui.com/)
+- [radix-ui](https://www.radix-ui.com/)
+- [polished](https://polished.js.org/docs/)
+- [json-server](https://github.com/typicode/json-server)
+- [axios](https://axios-http.com/docs/intro)
+- [react-loading](https://github.com/fakiolinho/react-loading)
+- [user-context-selector](https://github.com/dai-shi/use-context-selector#readme)
 
 `Validação de foumularios`
 
@@ -71,3 +80,21 @@ yarn create vite
 - Context Api -> permite compartilhar entre varias componentes informações ao mesmo tempo
 
 ### Reduces
+
+
+### Perfomance
+
+- Por que um componente renderiza
+  - Hook changed (Mudou estado, context, reduce, useEffect...)
+  - Props Changed (Mudou propriedades)
+  - Parent rerendered (Componente pai renderizou)
+
+- Qual fluxo da rederização
+  - O react recria a html
+  - Compara a versão recriada com o html anterior
+  - Se mudou algo, o html é rescrito
+
+- Memo
+  - Mudou algo no hooks ou nas props (deep camparison)
+  - Comparar com a versão anterior dos hooks e props
+  - Se mudou algo, ele vai permitir a nova renderização
